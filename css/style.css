@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek,vietnamese,greek-ext);
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:link,a:active,a:visited{
+    color: FFF;
+    text-decoration: none;
+}
+#pageTitle,#pageUser{
+    float: left;
+    color: #fff;
+    text-shadow: 0 0 1px #fff;
+}
+
+
+#pageUser{
+    padding: 4px;
+    font-size: 15px;
+    float: right;
+}
+
+.navbar-inverse{
+    background: #6d7470;
+    border: none;
+    box-shadow: 0 0 5px rgba(34, 34, 34, 0.21);
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #FFF;
+    font-size: 18px;
+    text-shadow: 0 2px 3px rgba(204, 204, 204, 0.61);
+}
+
+
+.navbar-inverse .navbar-brand{
+    color: #FFF;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background: #FFF;
+    color: #CCC;
+
+}
+
+.upper{
+    clear: both;
+    padding-top: 50px;
+}
+
+.notlarIndex{
+    padding: 5px 15px;
+    background: rgba(204, 204, 204, 0.20);
+    border-radius: 3px;
+    margin: 40px 0;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 5px rgba(34, 34, 34, 0.21);
+}
+
+.notlarIndex ul,.notlarIndex li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.notlarIndex li{
+    padding:   4px 3px;
+}
+.notlarIndex li a:link,.notlarIndex li a:active,.notlarIndex li a:visited{
+    color:#204d74;
+
+}
+
+.aTitle{
+    line-height: 2px;
+    float: right;
+    padding-top: 15px;
+}
+
+.aTitle a:link,.aTitle a:active,.aTitle  a:visited{
+    color:#204d74;
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+
+.footer{
+    border-top: 1px solid #CCC;
+    font-size: 10px;
+    padding: 3px 0;
+    text-align: center;
+}
