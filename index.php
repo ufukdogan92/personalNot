@@ -2,5 +2,4 @@
     include "includes/header.php";
     include "includes/icerik.php";
 
-
-?>
+ 
